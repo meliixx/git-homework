@@ -1,0 +1,11 @@
+git remote add origin https://github.com/<your-username>/git-homework.git
+
+# push the feature branch
+git push -u origin feature/add-details
+
+# merge into main locally
+git checkout main
+git merge feature/add-details
+
+# push main
+git push -u origin main
